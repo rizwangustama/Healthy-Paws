@@ -35,4 +35,31 @@ header .container .navbar .container-fluid .collapse ul li .logout {
 header .container .navbar .container-fluid .collapse ul li:not(:last-child) {
   margin-right: 30px;
 }
+
+main {
+  padding-top: 50px;
+}
+
+main .container {
+  width: 78%;
+}
+
+main .container section form .search {
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  background-color: #dddbdb;
+}
+
+main .container section form .btn-search {
+  border: 1px solid #2D9CDB;
+  background-color: #2D9CDB;
+  color: white;
+  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+main .container section form .btn-search:hover {
+  background-color: rgba(255, 255, 255, 0);
+  color: #2D9CDB;
+}
 /*# sourceMappingURL=memilihdokter.css.map */
