@@ -15,35 +15,32 @@ header {
     color: black;
     box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 
-    .container {
-        width: 78%;
+    .navbar {
+        .container-fluid {
+            width: 78%;
+            color: black;
 
-        .navbar {
-            .container-fluid {
-                color: black;
-
-                .navbar-brand {
-                    img {
-                        width: 18%;
-                    }
+            .navbar-brand {
+                img {
+                    width: 90px;
                 }
+            }
 
-                .collapse {
-                    ul {
-                        li {
-                            a {
-                                color: black;
-                                text-decoration: none;
-                            }
+            .collapse {
+                ul {
+                    li {
+                        a {
+                            color: black;
+                            text-decoration: none;
+                        }
 
-                            .logout {
-                                background-color: $primary;
-                                color: white;
-                            }
+                        .logout {
+                            background-color: $primary;
+                            color: white;
+                        }
 
-                            &:not(:last-child) {
-                                margin-right: 30px;
-                            }
+                        &:not(:last-child) {
+                            margin-right: 30px;
                         }
                     }
                 }
@@ -92,6 +89,7 @@ main {
                     .card {
                         padding: 20px;
                         padding-bottom: 0;
+                        box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 
                         .d-flex {
                             .info {
