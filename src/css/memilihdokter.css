@@ -1,5 +1,6 @@
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -12,6 +13,7 @@ header {
   -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
           box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 header .container {
   width: 78%;
 }
@@ -70,14 +72,24 @@ main .container section form .btn-search:hover {
   background-color: rgba(255, 255, 255, 0);
   color: #2D9CDB;
 }
-<<<<<<< Updated upstream
-=======
 
 main .container .list .row .col .card {
   padding: 20px;
+  padding-bottom: 0;
+}
+
+main .container .list .row .col .card .d-flex .info {
+  margin-left: 30px;
+  padding-top: 15px;
+}
+
+main .container .list .row .col .card .d-flex .info ul {
+  list-style-type: none;
+  padding: 0;
 }
 
 main .container .list .row .col .card .card-body {
+  padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -89,6 +101,7 @@ main .container .list .row .col .card .card-body ul {
   display: -ms-flexbox;
   display: flex;
   padding-left: 0;
+  margin-top: 10px;
 }
 
 main .container .list .row .col .card .card-body ul li {
@@ -98,5 +111,12 @@ main .container .list .row .col .card .card-body ul li {
 main .container .list .row .col .card .card-body ul li .d-flex p {
   margin-left: 7px;
 }
+
+main .container .list .row .col .card .card-body .btn {
+  background-color: #2D9CDB;
+  color: white;
+  padding-left: 35px;
+  padding-right: 35px;
+  height: 40px;
+}
 /*# sourceMappingURL=memilihdokter.css.map */
->>>>>>> Stashed changes
