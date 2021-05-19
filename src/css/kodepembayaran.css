@@ -1,0 +1,110 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F6F8FC;
+}
+
+header {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+header .navbar .container-fluid {
+  width: 78%;
+  color: black;
+}
+
+header .navbar .container-fluid .navbar-brand img {
+  width: 90px;
+}
+
+header .navbar .container-fluid .collapse ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+header .navbar .container-fluid .collapse ul li .logout {
+  background-color: #2D9CDB;
+  color: white;
+}
+
+header .navbar .container-fluid .collapse ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+main .container {
+  width: 580px;
+  padding-top: 150px;
+}
+
+main .container .card {
+  padding: 40px;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+main .container .card .up {
+  margin-bottom: 20px;
+}
+
+main .container .card .up .total {
+  border-bottom: 1px solid #b1aeae;
+  margin-bottom: 7px;
+}
+
+main .container .card .up .total .d-flex .harga {
+  color: #2D9CDB;
+}
+
+main .container .card .up .waktu .d-flex .waktu-isi {
+  text-align: right;
+}
+
+main .container .card .up .waktu .d-flex .waktu-isi h6 {
+  padding: 0;
+  margin: 0;
+  color: #2D9CDB;
+}
+
+main .container .card .up .waktu .d-flex .waktu-isi label {
+  font-size: 12px;
+  color: #555555;
+  padding: 0;
+  margin: 0;
+}
+
+main .container .card .center {
+  margin-bottom: 50px;
+}
+
+main .container .card .center img {
+  width: 100px;
+}
+
+main .container .card .center .label {
+  font-size: 14px;
+  color: #555555;
+  margin: 0;
+  margin-left: 40px;
+}
+
+main .container .card .center .kode {
+  color: #2D9CDB;
+  margin: 0;
+  margin-left: 40px;
+}
+
+main .container .card .btn {
+  color: white;
+  background-color: #2D9CDB;
+  width: 100%;
+}
+/*# sourceMappingURL=kodepembayaran.css.map */
