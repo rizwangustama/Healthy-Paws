@@ -1,0 +1,99 @@
+body {
+  background-color: #f6f8fc;
+}
+
+main section .container .grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+main section .container .grid .left {
+  display: flex;
+  align-items: center;
+}
+main section .container .grid .left .isi h1 {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 54.56px;
+  color: #333333, 100%;
+}
+main section .container .grid .left .isi p {
+  margin-top: 20px;
+  font-size: 15px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+main section .container .grid .right img {
+  width: 424px;
+}
+main #dr {
+  height: 550px;
+}
+main #dr .left img {
+  position: absolute;
+  width: 950px;
+  height: 771px;
+  top: 475px;
+  left: -75px;
+}
+main #dr .right {
+  margin-left: 625px;
+}
+main #dr .right .wrapp h1 {
+  margin-top: 300px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+  color: #333333, 100%;
+}
+main #dr .right .wrapp p {
+  font-size: 15px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+main #artikel .container .top {
+  display: flex;
+  justify-content: space-between;
+}
+main #artikel .container .top h1 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #333333, 100%;
+}
+main #artikel .container .tagar {
+  margin-top: 20px;
+  display: flex;
+}
+main #artikel .container .tagar h2 {
+  font-size: 17px;
+  padding: 6px 31px;
+  border: 1px solid #2d9cdb;
+  border-radius: 100px;
+  color: #2d9cdb;
+}
+main #artikel .container .tagar h2:nth-child(1) {
+  background-color: #2d9cdb;
+  color: white;
+  margin-right: 11px;
+}
+main #artikel .container .list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 33px;
+  margin-top: 40px;
+}
+main #artikel .container .list .card1 {
+  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  border-radius: 5px;
+}
+main #artikel .container .list .card1 img {
+  width: 305px;
+  height: 195px;
+}
+main #artikel .container .list .card1 .title {
+  padding-top: 19px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 30px;
+}
