@@ -8,29 +8,39 @@ $second: #555555;
 
 body {
     background-color: $background;
-}  
+}
 
 header {
     background-color: white;
     color: black;
-     
-    .navbar {
-        .container-fluid {
-            color: black;
-            .collapse {
-                ul {
-                    li {
-                        a {
-                            color: black;
-                            text-decoration: none; 
-                        }
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 
-                        &:not(:last-child) {
-                            margin-right: 30px;
+    .container {
+        width: 78%;
+        .navbar {
+            .container-fluid {
+                color: black;
+    
+                .collapse {
+                    ul {
+                        li {
+                            a {
+                                color: black;
+                                text-decoration: none;
+                            }
+    
+                            .logout {
+                                background-color: $primary;
+                                color: white;
+                            }
+    
+                            &:not(:last-child) {
+                                margin-right: 30px;
+                            }
                         }
                     }
                 }
             }
         }
     }
-} 
+}
