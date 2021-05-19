@@ -1,0 +1,36 @@
+$background: #F6F8FC;
+$primary: #2D9CDB;
+$second: #555555;
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+}  
+
+header {
+    background-color: white;
+    color: black;
+     
+    .navbar {
+        .container-fluid {
+            color: black;
+            .collapse {
+                ul {
+                    li {
+                        a {
+                            color: black;
+                            text-decoration: none; 
+                        }
+
+                        &:not(:last-child) {
+                            margin-right: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+} 
