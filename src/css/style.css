@@ -8,3 +8,9 @@ body {
 .container {
     width: 78%;
 }
+
+@media screen and (max-width:990px){
+    .container {
+        width: 95%
+    }
+}
