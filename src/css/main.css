@@ -2,6 +2,67 @@ body {
   background-color: #f6f8fc;
 }
 
+header {
+  background-color: white;
+  color: black;
+  -webkit-box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+          box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+}
+
+header .navbar .container-fluid {
+  width: 78%;
+  color: black;
+}
+
+header .navbar .container-fluid .navbar-brand img {
+  width: 90px;
+}
+
+header .navbar .container-fluid .collapse ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+header .navbar .container-fluid .collapse ul li:not(:last-child) {
+  margin-right: 30px;
+}
+
+header .navbar .container-fluid .collapse ul li .login {
+  background-color: #2d9cdb;
+  color: white;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-header {
+  border: none;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid {
+  width: 90%;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid .logo {
+  margin-left: 100px;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid .logo img {
+  width: 200px;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid button {
+  width: 100%;
+  background-color: #2d9cdb;
+  color: white;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid p {
+  text-align: center;
+  font-size: 14px;
+}
+
+header .navbar .container-fluid .collapse ul li .modal .modal-dialog .modal-content .modal-body .container-fluid p a:hover {
+  color: #2d9cdb;
+}
+
 main section .container .grid {
   display: -ms-grid;
   display: grid;

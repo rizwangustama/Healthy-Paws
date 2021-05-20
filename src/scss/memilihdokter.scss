@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600;900&display=swap');
 
 $background: #F6F8FC;
 $primary: #2D9CDB;
@@ -16,7 +16,8 @@ body {
 header {
     background-color: white;
     color: black;
-    box-shadow   : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+    box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+
     .navbar {
         .container-fluid {
             width: 78%;
@@ -129,13 +130,98 @@ main {
                                 }
                             }
 
-                            .btn {
+                            .chat {
                                 background-color: $primary;
                                 color: white;
                                 // padding: 5px 10px 5px 20px;
                                 padding-left: 35px;
                                 padding-right: 35px;
                                 height: 40px;
+                            }
+
+                            .modal {
+                                .modal-dialog {
+                                    .modal-content {
+                                        .modal-header {
+                                            border: none;
+                                        }
+
+                                        .modal-body {
+                                            .container-fluid {
+                                                width: 90%;
+
+                                                .info {
+                                                    // margin-left: 100px;
+
+                                                    img {
+                                                        width: 95px;
+                                                        border-radius: 100%;
+                                                    }
+
+                                                    .text {
+                                                        margin-left: 20px;
+
+                                                        h6 {
+                                                            margin: 0;
+                                                            color: black;
+                                                        }
+
+                                                        p {
+                                                            margin: 0;
+                                                            font-size: 14px;
+                                                            color: $second;
+                                                        }
+                                                    }
+                                                }
+
+                                                .promo {
+                                                    h6 {
+                                                        color: black;
+                                                    }
+
+                                                    .input-group {
+                                                        button {}
+                                                    }
+                                                }
+
+                                                .ringkasan {
+                                                    h6 {
+                                                        color: black;
+                                                    }
+
+                                                    .biaya {
+                                                        margin-bottom: 10px;
+                                                        p {
+                                                            color: $second;
+                                                            font-size: 14px;
+                                                            margin: 0;
+                                                        }
+                                                    }
+
+                                                    .bayar {
+                                                        h6 {
+                                                            color: black;
+                                                        }
+                                                    }
+                                                }
+
+                                                .metode {
+                                                    padding-bottom: 30px;
+                                                    border-bottom: 1px solid rgb(194, 194, 194);
+                                                    h6 {
+                                                        color: black;
+                                                    }
+                                                }
+
+                                                .btn-bayar {
+                                                    width: 100%;
+                                                    background-color: $primary;
+                                                    color: white;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
                             }
                         }
                     }
@@ -149,12 +235,13 @@ footer {
     img {
         margin-bottom: -1px;
     }
+
     .footer {
         background-color: $primary;
 
         .container {
             .wrap1 {
-                display              : grid;
+                display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
 
                 .row {
@@ -163,20 +250,20 @@ footer {
                     .title {
                         h1 {
                             font-size: 25px;
-                            color    : white;
+                            color: white;
                         }
                     }
 
                     ul {
                         li {
-                            display        : flex;
+                            display: flex;
                             list-style-type: none;
 
                             p {
                                 margin-bottom: 2px;
-                                font-weight  : 300;
-                                font-size    : 15px;
-                                color        : white;
+                                font-weight: 300;
+                                font-size: 15px;
+                                color: white;
                             }
 
                             img {
@@ -187,6 +274,7 @@ footer {
 
                     form {
                         margin-bottom: 120px;
+
                         div {
                             margin-bottom: 10px;
 
@@ -194,11 +282,12 @@ footer {
                                 color: white;
                             }
                         }
-                        .btn{
+
+                        .btn {
                             float: right;
                             margin-top: 25px;
                             border-radius: 100px;
-                            background-color:$second;
+                            background-color: $second;
                             color: white;
                             padding: 5px 54px;
                         }
@@ -213,9 +302,9 @@ footer {
     background-color: $second;
 
     p {
-        text-align   : center;
-        padding      : 20px 0px;
+        text-align: center;
+        padding: 20px 0px;
         margin-bottom: 0;
-        color        : white;
+        color: white;
     }
 }
