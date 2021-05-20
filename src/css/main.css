@@ -108,32 +108,28 @@ main #artikel .container .tagar h2:nth-child(1) {
 main #artikel .container .list {
   display: -ms-grid;
   display: grid;
-<<<<<<< Updated upstream
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 289px;
-  column-gap: 25px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: 289px;
+      grid-template-rows: 289px;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
   row-gap: 33px;
   margin-top: 40px;
 }
+
 main #artikel .container .list .card1:hover {
-  box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+  -webkit-box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+          box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: all ease 1s;
   transition: all ease 1s;
-}
-main #artikel .container .list .card1 {
-  transition: all ease 1s;
-  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
-=======
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-  -webkit-column-gap: 33px;
-          column-gap: 33px;
-  margin-top: 40px;
 }
 
 main #artikel .container .list .card1 {
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
   -webkit-box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
           box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
->>>>>>> Stashed changes
   border-radius: 5px;
   cursor: pointer;
 }
@@ -149,54 +145,78 @@ main #artikel .container .list .card1 .title {
   padding-right: 25px;
   padding-bottom: 30px;
 }
-<<<<<<< Updated upstream
+
 main #artikel .container .list .card1 .title p {
   line-height: 20px;
   color: #4e4e4e;
 }
+
 main #fitur {
   padding-top: 133px;
 }
+
 main #fitur .container .judul {
   margin-bottom: 23px;
 }
+
 main #fitur .container .judul h1 {
   font-size: 35px;
   color: #333333, 100%;
   font-weight: bold;
 }
+
 main #fitur .container .list-row {
+  display: -ms-grid;
   display: grid;
-  column-gap: 25px;
-  grid-template-columns: 1fr 1fr 1fr;
+  -webkit-column-gap: 25px;
+          column-gap: 25px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
+
 main #fitur .container .list-row .card1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   border-radius: 5px;
   background-color: white;
   cursor: pointer;
-  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  -webkit-box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+          box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
 }
+
 main #fitur .container .list-row .card1 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding: 0 24px;
   padding-top: 33px;
   padding-bottom: 25px;
 }
+
 main #fitur .container .list-row .card1 .wrapper .content {
   margin-left: 9px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
+
 main #fitur .container .list-row .card1 .wrapper .content .wrap {
   display: block;
 }
+
 main #fitur .container .list-row .card1 .wrapper .content .wrap .title h1 {
   font-size: 15px;
   font-style: normal;
   color: #333333, 100%;
 }
+
 main #fitur .container .list-row .card1 .wrapper .content .wrap .isi p {
   font-weight: 300;
   font-size: 9px;
@@ -204,42 +224,61 @@ main #fitur .container .list-row .card1 .wrapper .content .wrap .isi p {
   color: #555555, 100%;
   line-height: 12px;
 }
+
+main footer img {
+  margin-bottom: -1px;
+}
+
 main footer .footer {
   background-color: #2d9cdb;
 }
+
 main footer .footer .container .wrap1 {
+  display: -ms-grid;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
 }
+
 main footer .footer .container .wrap1 .row {
   display: block;
 }
+
 main footer .footer .container .wrap1 .row .title h1 {
   font-size: 25px;
   color: white;
 }
+
 main footer .footer .container .wrap1 .row ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
 }
+
 main footer .footer .container .wrap1 .row ul li p {
   margin-bottom: 2px;
   font-weight: 300;
   font-size: 15px;
   color: white;
 }
+
 main footer .footer .container .wrap1 .row ul li img {
   margin-right: 7px;
 }
+
 main footer .footer .container .wrap1 .row form {
   margin-bottom: 120px;
 }
+
 main footer .footer .container .wrap1 .row form div {
   margin-bottom: 10px;
 }
+
 main footer .footer .container .wrap1 .row form div label {
   color: white;
 }
+
 main footer .footer .container .wrap1 .row form .btn {
   float: right;
   margin-top: 25px;
@@ -248,15 +287,15 @@ main footer .footer .container .wrap1 .row form .btn {
   color: white;
   padding: 5px 54px;
 }
+
 main .copyright {
   background-color: #555555;
 }
+
 main .copyright p {
   text-align: center;
   padding: 20px 0px;
   margin-bottom: 0;
   color: white;
 }
-=======
 /*# sourceMappingURL=main.css.map */
->>>>>>> Stashed changes

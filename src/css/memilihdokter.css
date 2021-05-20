@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
 * {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
@@ -11,23 +12,29 @@ body {
 header {
   background-color: white;
   color: black;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 header .navbar .container-fluid {
   width: 78%;
   color: black;
 }
+
 header .navbar .container-fluid .navbar-brand img {
   width: 90px;
 }
+
 header .navbar .container-fluid .collapse ul li a {
   color: black;
   text-decoration: none;
 }
+
 header .navbar .container-fluid .collapse ul li .logout {
   background-color: #2D9CDB;
   color: white;
 }
+
 header .navbar .container-fluid .collapse ul li:not(:last-child) {
   margin-right: 30px;
 }
@@ -36,18 +43,23 @@ main {
   padding-top: 100px;
   padding-bottom: 50px;
 }
+
 main .container {
   width: 78%;
 }
+
 main .container section form .search {
   border-bottom-right-radius: 0px;
   border-top-right-radius: 0px;
   background-color: #dddbdb;
 }
+
 main .container section form .search:focus {
   outline: none;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
+
 main .container section form .btn-search {
   border: 1px solid #2D9CDB;
   background-color: #2D9CDB;
@@ -55,39 +67,53 @@ main .container section form .btn-search {
   border-bottom-left-radius: 0px;
   border-top-left-radius: 0px;
 }
+
 main .container section form .btn-search:hover {
   background-color: rgba(255, 255, 255, 0);
   color: #2D9CDB;
 }
+
 main .container .list .row .col .card {
   padding: 20px;
   padding-bottom: 0;
-  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
 main .container .list .row .col .card .d-flex .info {
   margin-left: 30px;
   padding-top: 15px;
 }
+
 main .container .list .row .col .card .d-flex .info ul {
   list-style-type: none;
   padding: 0;
 }
+
 main .container .list .row .col .card .card-body {
   padding-bottom: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
+
 main .container .list .row .col .card .card-body ul {
   list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   padding-left: 0;
   margin-top: 10px;
 }
+
 main .container .list .row .col .card .card-body ul li {
   margin-right: 40px;
 }
+
 main .container .list .row .col .card .card-body ul li .d-flex p {
   margin-left: 7px;
 }
+
 main .container .list .row .col .card .card-body .btn {
   background-color: #2D9CDB;
   color: white;
@@ -95,3 +121,78 @@ main .container .list .row .col .card .card-body .btn {
   padding-right: 35px;
   height: 40px;
 }
+
+footer img {
+  margin-bottom: -1px;
+}
+
+footer .footer {
+  background-color: #2D9CDB;
+}
+
+footer .footer .container .wrap1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footer .container .wrap1 .row {
+  display: block;
+}
+
+footer .footer .container .wrap1 .row .title h1 {
+  font-size: 25px;
+  color: white;
+}
+
+footer .footer .container .wrap1 .row ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+footer .footer .container .wrap1 .row ul li p {
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+footer .footer .container .wrap1 .row ul li img {
+  margin-right: 7px;
+}
+
+footer .footer .container .wrap1 .row form {
+  margin-bottom: 120px;
+}
+
+footer .footer .container .wrap1 .row form div {
+  margin-bottom: 10px;
+}
+
+footer .footer .container .wrap1 .row form div label {
+  color: white;
+}
+
+footer .footer .container .wrap1 .row form .btn {
+  float: right;
+  margin-top: 25px;
+  border-radius: 100px;
+  background-color: #555555;
+  color: white;
+  padding: 5px 54px;
+}
+
+.copyright {
+  background-color: #555555;
+}
+
+.copyright p {
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 0;
+  color: white;
+}
+/*# sourceMappingURL=memilihdokter.css.map */

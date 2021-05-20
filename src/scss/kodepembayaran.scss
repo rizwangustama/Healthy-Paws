@@ -129,3 +129,78 @@ main {
         }
     }
 }
+
+footer {
+    img {
+        margin-bottom: -1px;
+    }
+    .footer {
+        background-color: $primary;
+
+        .container {
+            .wrap1 {
+                display              : grid;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                .row {
+                    display: block;
+
+                    .title {
+                        h1 {
+                            font-size: 25px;
+                            color    : white;
+                        }
+                    }
+
+                    ul {
+                        li {
+                            display        : flex;
+                            list-style-type: none;
+
+                            p {
+                                margin-bottom: 2px;
+                                font-weight  : 300;
+                                font-size    : 15px;
+                                color        : white;
+                            }
+
+                            img {
+                                margin-right: 7px;
+                            }
+                        }
+                    }
+
+                    form {
+                        margin-bottom: 120px;
+                        div {
+                            margin-bottom: 10px;
+
+                            label {
+                                color: white;
+                            }
+                        }
+                        .btn{
+                            float: right;
+                            margin-top: 25px;
+                            border-radius: 100px;
+                            background-color:$second;
+                            color: white;
+                            padding: 5px 54px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    background-color: $second;
+
+    p {
+        text-align   : center;
+        padding      : 20px 0px;
+        margin-bottom: 0;
+        color        : white;
+    }
+}

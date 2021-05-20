@@ -224,6 +224,9 @@ main {
     }
 
     footer {
+        img {
+            margin-bottom: -1px;
+        }
         .footer {
             background-color: $primary;
 
