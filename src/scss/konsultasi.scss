@@ -229,6 +229,25 @@ main {
                             }
                         }
                     }
+
+                    .card-body {
+                        background-color: rgb(212, 211, 211);
+
+                        .d-flex {
+                            span {
+                                background-color: rgba(255, 235, 205, 0);
+                                padding: 0 5px;
+
+                                svg {
+                                    // background-color: black;99999
+                                }
+                            }
+
+                            input {
+                                border-radius: 30px;
+                            }
+                        }
+                    }
                 }
             }
         }

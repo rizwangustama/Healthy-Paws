@@ -212,6 +212,19 @@ main .container .row .kanan .card .chat .row .left-4 p {
   margin: 0;
 }
 
+main .container .row .kanan .card .card-body {
+  background-color: #d4d3d3;
+}
+
+main .container .row .kanan .card .card-body .d-flex span {
+  background-color: rgba(255, 235, 205, 0);
+  padding: 0 5px;
+}
+
+main .container .row .kanan .card .card-body .d-flex input {
+  border-radius: 30px;
+}
+
 footer img {
   margin-bottom: -1px;
 }
