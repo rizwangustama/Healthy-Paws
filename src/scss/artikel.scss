@@ -19,6 +19,7 @@ main {
                     h1 {
                         font-weight: 600;
                         font-size  : 35px;
+                        margin-bottom: 31px;
                     }
                 }
 
@@ -81,19 +82,26 @@ main {
 
         .terbaru {
             margin-top: 70px;
+
             .title {
                 margin-bottom: 41px;
+
+                h1 {
+                    font-weight: bold;
+                    font-size  : 35px;
+                }
             }
 
             .griding {
                 display              : grid;
                 column-gap           : 31px;
-                row-gap: 31px;
+                row-gap              : 31px;
                 grid-template-columns: 1fr 1fr 1fr;
 
                 .card1 {
                     background-color: white;
-                    border: 5px;
+                    border          : 5px;
+
                     img {
                         width: 100%;
                     }
@@ -138,6 +146,7 @@ footer {
     img {
         margin-bottom: -1px;
     }
+
     .footer {
         background-color: $primary;
 
