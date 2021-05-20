@@ -92,7 +92,7 @@ main {
                 .col {
                     .card {
                         padding: 20px;
-                        padding-bottom: 0;
+                        padding-bottom: 12px;
                         box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 
                         .d-flex {
@@ -110,14 +110,15 @@ main {
                         }
 
                         .card-body {
-                            padding-bottom: 0;
+                            padding: 0px;
                             display: flex;
+                            
 
                             ul {
                                 list-style-type: none;
                                 display: flex;
                                 padding-left: 0;
-                                margin-top: 10px;
+                                margin-top: 15px;
 
                                 li {
                                     margin-right: 40px;
@@ -125,11 +126,15 @@ main {
                                     .d-flex {
                                         p {
                                             margin-left: 7px;
+                                            margin-bottom: 0;
                                         }
                                     }
                                 }
                             }
 
+                            button{
+                                margin-top: 8px;
+                            }
                             .chat {
                                 background-color: $primary;
                                 color: white;
