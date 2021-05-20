@@ -1,0 +1,152 @@
+main {
+  padding-top: 108px;
+}
+main .container .wrap {
+  display: grid;
+  column-gap: 20px;
+  grid-template-columns: 65% 35%;
+}
+main .container .wrap .content-left .title h1 {
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 31px;
+}
+main .container .wrap .content-left img {
+  width: 100%;
+}
+main .container .wrap .content-left .isi {
+  padding: 22px 16px;
+}
+main .container .wrap .content-left .isi p {
+  text-align: justify;
+}
+main .container .wrap .content-left .isi h4 {
+  font-weight: 600;
+  font-size: 17px;
+}
+main .container .wrap .content-left .isi div {
+  padding-left: 20px;
+}
+main .container .wrap .content-right .title h1 {
+  font-weight: 600;
+  font-size: 35px;
+}
+main .container .wrap .content-right .list .card1 {
+  display: flex;
+  margin-bottom: 10px;
+  box-shadow: 0px 4px 9px rgba(187, 187, 187, 0.25);
+  background-color: white;
+}
+main .container .wrap .content-right .list .card1 img {
+  width: 78px;
+  height: 69px;
+}
+main .container .wrap .content-right .list .card1 .judul {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+main .container .wrap .content-right .list .card1 .judul p {
+  margin: 0;
+}
+main .container .terbaru {
+  margin-top: 70px;
+}
+main .container .terbaru .title {
+  margin-bottom: 41px;
+}
+main .container .terbaru .title h1 {
+  font-weight: bold;
+  font-size: 35px;
+}
+main .container .terbaru .griding {
+  display: grid;
+  column-gap: 31px;
+  row-gap: 31px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+main .container .terbaru .griding .card1 {
+  background-color: white;
+  border: 5px;
+}
+main .container .terbaru .griding .card1 img {
+  width: 100%;
+}
+main .container .terbaru .griding .card1 .isi {
+  padding: 16px;
+}
+main .container .terbaru .griding .card1 .isi .tag p {
+  width: max-content;
+  padding: 4px 16px;
+  background-color: #B6CCDA;
+  font-size: 10px;
+  color: #2d9cdb;
+}
+main .container .terbaru .griding .card1 .isi .judul h1 {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+}
+main .container .terbaru .griding .card1 .isi .content p {
+  font-size: 10px;
+  line-height: 15px;
+  text-align: justify;
+}
+
+footer img {
+  margin-bottom: -1px;
+}
+footer .footer {
+  background-color: #2d9cdb;
+}
+footer .footer .container .wrap1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer .footer .container .wrap1 .row {
+  display: block;
+}
+footer .footer .container .wrap1 .row .title h1 {
+  font-size: 25px;
+  color: white;
+}
+footer .footer .container .wrap1 .row ul li {
+  display: flex;
+  list-style-type: none;
+}
+footer .footer .container .wrap1 .row ul li p {
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+footer .footer .container .wrap1 .row ul li img {
+  margin-right: 7px;
+}
+footer .footer .container .wrap1 .row form {
+  margin-bottom: 120px;
+}
+footer .footer .container .wrap1 .row form div {
+  margin-bottom: 10px;
+}
+footer .footer .container .wrap1 .row form div label {
+  color: white;
+}
+footer .footer .container .wrap1 .row form .btn {
+  float: right;
+  margin-top: 25px;
+  border-radius: 100px;
+  background-color: #555555;
+  color: white;
+  padding: 5px 54px;
+}
+
+.copyright {
+  background-color: #555555;
+}
+.copyright p {
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 0;
+  color: white;
+}
