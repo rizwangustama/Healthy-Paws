@@ -16,7 +16,7 @@ body {
 header {
     background-color: white;
     color: black;
-    box-shadow   : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+    box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
 
     .navbar {
         .container-fluid {
@@ -84,6 +84,10 @@ main {
                         color: $second;
                         font-size: 14px;
                         text-align: center;
+                        margin: 0;
+                        padding-top: 20px;
+                        padding-bottom: 0;
+
                         .selesai {
                             margin-top: -3px;
                             background-color: rgb(63, 177, 107);
@@ -109,12 +113,13 @@ footer {
     img {
         margin-bottom: -1px;
     }
+
     .footer {
         background-color: $primary;
 
         .container {
             .wrap1 {
-                display              : grid;
+                display: grid;
                 grid-template-columns: 1fr 1fr 1fr;
 
                 .row {
@@ -123,20 +128,20 @@ footer {
                     .title {
                         h1 {
                             font-size: 25px;
-                            color    : white;
+                            color: white;
                         }
                     }
 
                     ul {
                         li {
-                            display        : flex;
+                            display: flex;
                             list-style-type: none;
 
                             p {
                                 margin-bottom: 2px;
-                                font-weight  : 300;
-                                font-size    : 15px;
-                                color        : white;
+                                font-weight: 300;
+                                font-size: 15px;
+                                color: white;
                             }
 
                             img {
@@ -147,6 +152,7 @@ footer {
 
                     form {
                         margin-bottom: 120px;
+
                         div {
                             margin-bottom: 10px;
 
@@ -154,11 +160,12 @@ footer {
                                 color: white;
                             }
                         }
-                        .btn{
+
+                        .btn {
                             float: right;
                             margin-top: 25px;
                             border-radius: 100px;
-                            background-color:$second;
+                            background-color: $second;
                             color: white;
                             padding: 5px 54px;
                         }
@@ -173,9 +180,9 @@ footer {
     background-color: $second;
 
     p {
-        text-align   : center;
-        padding      : 20px 0px;
+        text-align: center;
+        padding: 20px 0px;
         margin-bottom: 0;
-        color        : white;
+        color: white;
     }
 }
