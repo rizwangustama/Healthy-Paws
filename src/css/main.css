@@ -183,6 +183,9 @@ main #fitur .container .list-row .card1 .wrapper .content .wrap .isi p {
   color: #555555, 100%;
   line-height: 12px;
 }
+main footer img {
+  margin-bottom: -1px;
+}
 main footer .footer {
   background-color: #2d9cdb;
 }

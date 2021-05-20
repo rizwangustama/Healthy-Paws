@@ -1,9 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap");
 * {
   box-sizing: border-box;
 }
 
 body {
   background-color: #F6F8FC;
+  font-family: "Nunito Sans";
 }
 
 header {
@@ -31,7 +33,8 @@ header .navbar .container-fluid .collapse ul li:not(:last-child) {
 }
 
 main {
-  padding-top: 50px;
+  padding-top: 100px;
+  padding-bottom: 50px;
 }
 main .container {
   width: 78%;
@@ -91,4 +94,62 @@ main .container .list .row .col .card .card-body .btn {
   padding-left: 35px;
   padding-right: 35px;
   height: 40px;
+}
+
+footer img {
+  margin-bottom: -1px;
+}
+footer .footer {
+  background-color: #2D9CDB;
+}
+footer .footer .container .wrap1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+footer .footer .container .wrap1 .row {
+  display: block;
+}
+footer .footer .container .wrap1 .row .title h1 {
+  font-size: 25px;
+  color: white;
+}
+footer .footer .container .wrap1 .row ul li {
+  display: flex;
+  list-style-type: none;
+}
+footer .footer .container .wrap1 .row ul li p {
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+footer .footer .container .wrap1 .row ul li img {
+  margin-right: 7px;
+}
+footer .footer .container .wrap1 .row form {
+  margin-bottom: 120px;
+}
+footer .footer .container .wrap1 .row form div {
+  margin-bottom: 10px;
+}
+footer .footer .container .wrap1 .row form div label {
+  color: white;
+}
+footer .footer .container .wrap1 .row form .btn {
+  float: right;
+  margin-top: 25px;
+  border-radius: 100px;
+  background-color: #555555;
+  color: white;
+  padding: 5px 54px;
+}
+
+.copyright {
+  background-color: #555555;
+}
+.copyright p {
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 0;
+  color: white;
 }
