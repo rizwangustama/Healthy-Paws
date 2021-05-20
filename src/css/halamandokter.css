@@ -1,6 +1,5 @@
 * {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -10,29 +9,23 @@ body {
 header {
   background-color: white;
   color: black;
-  -webkit-box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 header .navbar .container-fluid {
   width: 78%;
   color: black;
 }
-
 header .navbar .container-fluid .navbar-brand img {
   width: 90px;
 }
-
 header .navbar .container-fluid .collapse ul li a {
   color: black;
   text-decoration: none;
 }
-
 header .navbar .container-fluid .collapse ul li .logout {
   background-color: #2D9CDB;
   color: white;
 }
-
 header .navbar .container-fluid .collapse ul li:not(:last-child) {
   margin-right: 30px;
 }
@@ -40,109 +33,86 @@ header .navbar .container-fluid .collapse ul li:not(:last-child) {
 main {
   padding-top: 100px;
 }
-
 main .container {
   width: 78%;
 }
-
 main .container .row .kiri .card {
   padding: 50px;
   border: none;
 }
-
 main .container .row .kiri .card .atas img {
   width: 250px;
   margin-left: 80px;
   margin-bottom: 20px;
 }
-
 main .container .row .kiri .card .card-body ul {
   list-style-type: none;
   padding: 0;
   margin-bottom: 120px;
 }
-
 main .container .row .kiri .card .card-body ul li {
   margin-bottom: 15px;
 }
-
 main .container .row .kiri .card .card-body ul li p {
   margin: 0;
 }
-
 main .container .row .kiri .card .card-body ul li .label {
   font-size: 14px;
   color: #555555;
 }
-
 main .container .row .kiri .card .card-body ul li .isi {
   font-weight: 600;
 }
-
 main .container .row .kiri .card .card-body .btn {
   background-color: #2D9CDB;
   border: 1px solid #2D9CDB;
   color: white;
   width: 100%;
 }
-
 main .container .row .kiri .card .card-body .btn:hover {
   background-color: rgba(255, 255, 255, 0);
   color: #2D9CDB;
 }
-
 main .container .row .kanan ul {
   list-style-type: none;
   padding: 0;
 }
-
 main .container .row .kanan ul li {
   margin-bottom: 10px;
 }
-
 main .container .row .kanan ul li .card {
   padding: 20px;
   border: none;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
 main .container .row .kanan ul li .card .d-flex img {
   width: 60px;
 }
-
 main .container .row .kanan ul li .card .d-flex .text {
   margin-left: 20px;
 }
-
 main .container .row .kanan ul li .card .d-flex .text p {
   margin: 0;
 }
-
 main .container .row .kanan ul li .card .d-flex .text .name {
   font-size: 17px;
 }
-
 main .container .row .kanan ul li .card .d-flex .text label {
   font-size: 14px;
   color: #555555;
 }
-
 main .container .row .kanan ul li .card .d-flex .btn-not {
   background-color: #2D9CDB;
   border: 1px solid #2D9CDB;
   color: white;
 }
-
 main .container .row .kanan ul li .card .d-flex .btn-not:hover {
   background-color: rgba(255, 255, 255, 0);
   color: #2D9CDB;
 }
-
 main .container .row .kanan ul li .card .d-flex .btn-done {
   background-color: #bdbcbc;
   border: 1px solid #bdbcbc;
   color: white;
   cursor: default;
 }
-/*# sourceMappingURL=halamandokter.css.map */

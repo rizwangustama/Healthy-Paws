@@ -105,6 +105,7 @@ main {
                     border       : 1px solid $primary;
                     border-radius: 100px;
                     color        : $primary;
+                    cursor       : pointer;
                 }
 
                 h2:nth-child(1) {
@@ -118,11 +119,20 @@ main {
                 display              : grid;
                 grid-template-columns: 1fr 1fr 1fr;
                 column-gap           : 33px;
+                row-gap              : 33px;
                 margin-top           : 40px;
 
+
+                .card1:hover {
+                    box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+                    transition: all ease 1s;
+                }
+
                 .card1 {
-                    box-shadow      : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
-                    border-radius   : 5px;
+                    transition   : all ease 1s;
+                    box-shadow   : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    border-radius: 5px;
+                    cursor       : pointer;
 
                     img {
                         width : 305px;
@@ -135,10 +145,152 @@ main {
                         padding-right : 25px;
                         padding-bottom: 30px;
 
-                        .wrapper {}
+                        p {
+                            line-height: 20px;
+                            color      : #4e4e4e;
+                        }
                     }
                 }
             }
+        }
+    }
+
+    #fitur {
+        padding-top: 133px;
+
+        .container {
+            .judul {
+                margin-bottom: 23px;
+
+                h1 {
+                    font-size  : 35px;
+                    color      : $judul;
+                    font-weight: bold;
+                }
+            }
+
+            .list-row {
+                display              : grid;
+                column-gap           : 33px;
+                grid-template-columns: 1fr 1fr 1fr;
+
+                .card1 {
+                    display         : flex;
+                    align-items     : center;
+                    border-radius   : 5px;
+                    background-color: white;
+                    cursor          : pointer;
+                    box-shadow      : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+
+                    .wrapper {
+                        display       : flex;
+                        padding       : 0 24px;
+                        padding-top   : 33px;
+                        padding-bottom: 25px;
+
+                        .content {
+                            margin-left: 9px;
+                            display    : flex;
+                            align-items: center;
+
+                            .wrap {
+                                display: block;
+
+                                .title {
+                                    h1 {
+                                        font-size : 15px;
+                                        font-style: normal;
+                                        color     : $judul;
+                                    }
+                                }
+
+                                .isi {
+                                    p {
+                                        font-weight: 300;
+                                        font-size  : 9px;
+                                        line-height: 12px;
+                                        color      : #555555, 100%;
+                                        line-height: 12px;
+                                    }
+                                }
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        .footer {
+            background-color: $primary;
+
+            .container {
+                .wrap1 {
+                    display              : grid;
+                    grid-template-columns: 1fr 1fr 1fr;
+
+                    .row {
+                        display: block;
+
+                        .title {
+                            h1 {
+                                font-size: 25px;
+                                color    : white;
+                            }
+                        }
+
+                        ul {
+                            li {
+                                display        : flex;
+                                list-style-type: none;
+
+                                p {
+                                    margin-bottom: 2px;
+                                    font-weight  : 300;
+                                    font-size    : 15px;
+                                    color        : white;
+                                }
+
+                                img {
+                                    margin-right: 7px;
+                                }
+                            }
+                        }
+
+                        form {
+                            margin-bottom: 120px;
+                            div {
+                                margin-bottom: 10px;
+
+                                label {
+                                    color: white;
+                                }
+                            }
+                            .btn{
+                                float: right;
+                                margin-top: 25px;
+                                border-radius: 100px;
+                                background-color:$second;
+                                color: white;
+                                padding: 5px 54px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .copyright {
+        background-color: $second;
+
+        p {
+            text-align   : center;
+            padding      : 20px 0px;
+            margin-bottom: 0;
+            color        : white;
         }
     }
 }
