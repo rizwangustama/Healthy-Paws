@@ -84,6 +84,10 @@ main {
 
                                 p {
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
 
                                 .label {
@@ -132,6 +136,10 @@ main {
 
                         p {
                             margin: 0;
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 15px;
+                            line-height: 20px;
                         }
                     }
 
@@ -140,32 +148,40 @@ main {
 
                         .row {
                             .right {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: $primary;
                                 color: white;
-                                padding: 5px 10px;
+                                padding: 10px 16px;
                                 border-radius: 10px;
 
                                 p {
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .right-2 {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: $primary;
                                 color: white;
                                 padding: 5px 10px;
                                 border-radius: 10px;
 
                                 p {
-                                    color: rgba(128, 128, 128, 0);
+                                    color: rgba(230, 227, 227, 0);
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .right-3 {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: $primary;
                                 color: white;
                                 padding: 5px 10px;
@@ -174,57 +190,77 @@ main {
                                 p {
                                     color: rgba(128, 128, 128, 0);
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .left {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: rgb(212, 211, 211);
                                 color: black;
-                                padding: 5px 0;
+                                padding: 10px 16px;
                                 border-radius: 10px;
 
                                 p {
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .left-2 {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: rgb(212, 211, 211);
                                 color: black;
-                                padding: 5px 0;
+                                padding: 10px 16px;
                                 border-radius: 10px;
 
                                 p {
                                     color: rgba(128, 128, 128, 0);
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .left-3 {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: rgb(212, 211, 211);
                                 color: black;
-                                padding: 5px 0;
+                                padding: 10px 16px;
                                 border-radius: 10px;
 
                                 p {
                                     color: rgba(128, 128, 128, 0);
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
 
                             .left-4 {
-                                text-align: center;
+                                // text-align: center;
                                 background-color: rgb(212, 211, 211);
                                 color: black;
-                                padding: 5px 0;
+                                padding: 10px 16px;
                                 border-radius: 10px;
 
                                 p {
                                     color: rgba(128, 128, 128, 0);
                                     margin: 0;
+                                    font-style: normal;
+                                    font-weight: 300;
+                                    font-size: 15px;
+                                    line-height: 20px;
                                 }
                             }
                         }
