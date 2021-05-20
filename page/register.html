@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="../src/css/register.css">
+
+    <title>Register</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid navbar-light">
+                <a class="navbar-brand" href="#"><img src="../src/img/Logo Healthy Paws.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Beranda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Konsultasi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Artikel</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Register</a>
+                        </li>
+                        <li class="nav-item">
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn login" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Login
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <!-- <h5 class="modal-title" id="exampleModalLabel">Modal title</h5> -->
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="container-fluid">
+                                                <div class="logo mb-5">
+                                                    <img src="../src/img/Logo Healthy Paws.png " alt="">
+                                                </div>
+                                                <div class="mb-4">
+                                                    <label for="NamaPengguna" class="form-label">Nama Pengguna</label>
+                                                    <input type="text" class="form-control" id="NamaPengguna"
+                                                        placeholder="Masukan Nama Pengguna">
+                                                </div>
+                                                <div class="mb-4">
+                                                    <label for="inputPassword" class="form-label">Kata Sandi</label>
+                                                    <input type="password" class="form-control" id="inputPassword" placeholder="Masukan Kata Sandi">
+                                                </div>
+                                                <button type="button" class="btn mt-3 mb-3">Login</button>
+                                                <p>Don't have an account? <a href="">Register here</a></p>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="card">
+                <div class="logo">
+                    <img src="../src/img/Logo Healthy Paws.png" alt="">
+                </div>
+                <form action="">
+                    <div class="mb-4">
+                        <label for="NamaPengguna" class="form-label">Nama Pengguna</label>
+                        <input type="text" class="form-control" id="NamaPengguna"
+                            placeholder="Masukan Nama Pengguna">
+                    </div>
+                    <div class="mb-4">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="Email"
+                            placeholder="Masukan Email">
+                    </div>
+                    <div class="mb-4">
+                        <label for="inputPassword" class="form-label">Kata Sandi</label>
+                        <input type="password" class="form-control" id="inputPassword" placeholder="Masukan Kata Sandi">
+                    </div>
+                    <div class="mb-4">
+                        <label for="rePassword" class="form-label">Ulangi Kata Sandi</label>
+                        <input type="password" class="form-control" id="rePassword" placeholder="Ulangi Kata Sandi">
+                    </div>
+                    <div class="mb-4">
+                        <label for="Alamat" class="form-label">Alamat</label>
+                        <input type="text" class="form-control" id="Alamat"
+                            placeholder="Masukan Alamat">
+                    </div>
+                    <div class="mb-4">
+                        <label for="HP" class="form-label">No Handphone</label>
+                        <input type="text" class="form-control" id="HP"
+                            placeholder="Masukan Nomor Handphone">
+                    </div>
+                    <div class="mb-4">
+                        <label for="formFile" class="form-label">Upload KTP</label>
+                        <input class="form-control" type="file" id="formFile">
+                    </div>
+                    <button type="button" class="btn mt-3 mb-3">Register</button>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <img src="../src/img/foot.svg" width="100%" alt="" />
+        <section class="footer">
+            <div class="container">
+                <div class="wrap1">
+                    <div class="row">
+                        <div class="title">
+                            <h1>Hubungi kami</h1>
+                        </div>
+                        <ul>
+                            <li>
+                                <p>Telepon : 0895412996071</p>
+                            </li>
+                            <li>
+                                <p>Email : cshealthypaws@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="title">
+                            <h1>Hubungi kami</h1>
+                        </div>
+                        <ul>
+                            <li>
+                                <img src="./src/img/icon-facebook.svg" width="23px" alt="">
+                                <p>healthypaws_id</p>
+                            </li>
+                            <li>
+                                <img src="./src/img/icon-instagram.svg" width="23px" alt="">
+                                <p>HealthyPaws ID</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <div class="title">
+                            <h1>Kritik dan Saran</h1>
+                        </div>
+                        <form action="">
+                            <div>
+                                <label class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" placeholder="Masukan nama lengkap">
+                            </div>
+                            <div>
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Masukan alamat email">
+                            </div>
+                            <div>
+                                <label class="form-label">Kriitik dan Saran</label>
+                               <textarea class="form-control" placeholder="Masukan kritik dan saran" rows="3"></textarea>
+                            </div>
+                            <button class="btn">Kirim</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="copyright">
+            <p>Copyright &copy; Healthy Paws 2021</p>
+        </section>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
