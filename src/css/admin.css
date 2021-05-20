@@ -205,7 +205,11 @@ main .container .anggota .title {
   padding-bottom: 10px;
 }
 main .container .anggota .row .col .card {
+<<<<<<< Updated upstream
   background-color: transparent;
+=======
+  background-color: rgba(255, 255, 255, 0);
+>>>>>>> Stashed changes
   border: none;
 }
 main .container .anggota .row .col .card img {
@@ -220,4 +224,83 @@ main .container .anggota .row .col .card .card-body p {
   font-size: 12px;
   margin: 0;
   color: #555555;
+<<<<<<< Updated upstream
 }
+=======
+}
+
+footer img {
+  margin-bottom: -1px;
+}
+
+footer .footer {
+  background-color: #2D9CDB;
+}
+
+footer .footer .container .wrap1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+footer .footer .container .wrap1 .row {
+  display: block;
+}
+
+footer .footer .container .wrap1 .row .title h1 {
+  font-size: 25px;
+  color: white;
+}
+
+footer .footer .container .wrap1 .row ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+
+footer .footer .container .wrap1 .row ul li p {
+  margin-bottom: 2px;
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+}
+
+footer .footer .container .wrap1 .row ul li img {
+  margin-right: 7px;
+}
+
+footer .footer .container .wrap1 .row form {
+  margin-bottom: 120px;
+}
+
+footer .footer .container .wrap1 .row form div {
+  margin-bottom: 10px;
+}
+
+footer .footer .container .wrap1 .row form div label {
+  color: white;
+}
+
+footer .footer .container .wrap1 .row form .btn {
+  float: right;
+  margin-top: 25px;
+  border-radius: 100px;
+  background-color: #555555;
+  color: white;
+  padding: 5px 54px;
+}
+
+.copyright {
+  background-color: #555555;
+}
+
+.copyright p {
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 0;
+  color: white;
+}
+/*# sourceMappingURL=admin.css.map */
+>>>>>>> Stashed changes
