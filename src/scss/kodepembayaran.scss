@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
 $background: #F6F8FC;
 $primary: #2D9CDB;
 $second: #555555;
@@ -8,6 +10,7 @@ $second: #555555;
 
 body {
     background-color: $background;
+    font-family: 'Nunito Sans';
 }
 
 header {
