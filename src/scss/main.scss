@@ -118,7 +118,8 @@ main {
             .list {
                 display              : grid;
                 grid-template-columns: 1fr 1fr 1fr;
-                column-gap           : 33px;
+                grid-template-rows: 289px;
+                column-gap           : 25px;
                 row-gap              : 33px;
                 margin-top           : 40px;
 
@@ -135,7 +136,6 @@ main {
                     cursor       : pointer;
 
                     img {
-                        width : 305px;
                         height: 195px;
                     }
 
@@ -171,7 +171,7 @@ main {
 
             .list-row {
                 display              : grid;
-                column-gap           : 33px;
+                column-gap           : 25px;
                 grid-template-columns: 1fr 1fr 1fr;
 
                 .card1 {

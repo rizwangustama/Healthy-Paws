@@ -81,7 +81,8 @@ main #artikel .container .tagar h2:nth-child(1) {
 main #artikel .container .list {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  column-gap: 33px;
+  grid-template-rows: 289px;
+  column-gap: 25px;
   row-gap: 33px;
   margin-top: 40px;
 }
@@ -96,7 +97,6 @@ main #artikel .container .list .card1 {
   cursor: pointer;
 }
 main #artikel .container .list .card1 img {
-  width: 305px;
   height: 195px;
 }
 main #artikel .container .list .card1 .title {
@@ -122,7 +122,7 @@ main #fitur .container .judul h1 {
 }
 main #fitur .container .list-row {
   display: grid;
-  column-gap: 33px;
+  column-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
 }
 main #fitur .container .list-row .card1 {
