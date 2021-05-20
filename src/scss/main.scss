@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
+
 $background: #f6f8fc;
 $primary : #2d9cdb;
 $second : #555555;
@@ -7,6 +9,7 @@ $subJudul : #4F4F4F;
 
 body {
     background-color: $background;
+    font-family: 'Nunito Sans';
 }
 
 header {
