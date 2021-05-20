@@ -5,11 +5,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./src/css/bootstrap.min.css" />
     <link rel="stylesheet" href="./src/css/style.css" />
     <link rel="stylesheet" href="./src/css/main.css" />
     <title>Healthy Paws</title>
 </head>
+<style>
+    .swiper-container {
+        width: 100%;
+    }
+
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: transparent;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        padding-right: 25px;
+    }
+</style>
 
 <body>
     <main>
@@ -56,6 +90,41 @@
                         Jagalah kesehatan hewan anda dengan rutin konsultasi di healty
                         paws
                     </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="promo">
+            <div class="container">
+                <div class="title">
+                    <h1>Penawaran Menarik</h1>
+                </div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./src/img/Promo1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Promo2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Promo3.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Promo2.png" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="harga">
+            <div class="container">
+                <div class="title">
+                    <h1>Daftar Harga</h1>
+                </div>
+                <div class="swiper-container mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./src/img/Harga1.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Harga2.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/harga4.png" alt=""></div>
+                        <div class="swiper-slide"><img src="./src/img/Harga1.png" alt=""></div>
+                       
+                    </div>
+                    <div class="swiper-pagination"></div>
                 </div>
             </div>
         </section>
@@ -237,7 +306,8 @@
                                 </div>
                                 <div>
                                     <label class="form-label">Kriitik dan Saran</label>
-                                   <textarea class="form-control" placeholder="Masukan kritik dan saran" rows="3"></textarea>
+                                    <textarea class="form-control" placeholder="Masukan kritik dan saran"
+                                        rows="3"></textarea>
                                 </div>
                                 <button class="btn">Kirim</button>
                             </form>
@@ -250,6 +320,15 @@
             </section>
         </footer>
     </main>
+
+    <script src="./src/js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            watchSlidesProgress: true,
+            watchSlidesVisibility: true,
+            slidesPerView: 3,
+        });
+    </script>
 
     <script src="./src/js/popper.min.js"></script>
     <script src="./src/js/bootstrap.min.js"></script>

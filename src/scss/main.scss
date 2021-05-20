@@ -82,6 +82,37 @@ main {
         }
     }
 
+    #promo {
+        margin-bottom: 125px;
+
+        .container {
+            .title {
+                margin-bottom: 25px;
+
+                h1 {
+                    font-weight: bold;
+                    font-size  : 35px;
+                    line-height: 48px;
+
+                }
+            }
+        }
+    }
+
+    #harga {
+        margin-bottom: 127px;
+        .container {
+            .title {
+                h1 {
+                    font-weight: bold;
+                    font-size  : 35px;
+                    line-height: 48px;
+
+                }
+            }
+        }
+    }
+
     #artikel {
         .container {
             .top {
@@ -118,26 +149,26 @@ main {
             .list {
                 display              : grid;
                 grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 289px;
+                grid-template-rows   : 289px;
                 column-gap           : 25px;
                 row-gap              : 33px;
                 margin-top           : 40px;
 
 
                 .card1:hover {
-                    box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+                    box-shadow   : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
                     transition: all ease 1s;
                 }
 
                 .card1 {
                     transition   : all ease 1s;
-                    box-shadow   : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    background-color: white;
                     border-radius: 5px;
                     cursor       : pointer;
 
                     img {
                         height: 195px;
-                        width: 100%;
+                        width : 100%;
                     }
 
                     .title {
@@ -175,13 +206,18 @@ main {
                 column-gap           : 25px;
                 grid-template-columns: 1fr 1fr 1fr;
 
+                .card1:hover {
+                    box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    transition: all ease 1s;
+                }
+
                 .card1 {
+                    transition: all ease 1s;
                     display         : flex;
                     align-items     : center;
                     border-radius   : 5px;
                     background-color: white;
                     cursor          : pointer;
-                    box-shadow      : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
 
                     .wrapper {
                         display       : flex;
@@ -262,6 +298,7 @@ main {
 
                         form {
                             margin-bottom: 120px;
+
                             div {
                                 margin-bottom: 10px;
 
@@ -269,13 +306,14 @@ main {
                                     color: white;
                                 }
                             }
-                            .btn{
-                                float: right;
-                                margin-top: 25px;
-                                border-radius: 100px;
-                                background-color:$second;
-                                color: white;
-                                padding: 5px 54px;
+
+                            .btn {
+                                float           : right;
+                                margin-top      : 25px;
+                                border-radius   : 100px;
+                                background-color: $second;
+                                color           : white;
+                                padding         : 5px 54px;
                             }
                         }
                     }

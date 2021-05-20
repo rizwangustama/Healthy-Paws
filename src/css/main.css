@@ -52,6 +52,25 @@ main #dr .right .wrapp p {
   line-height: 25px;
   color: #4F4F4F;
 }
+main #promo {
+  margin-bottom: 125px;
+}
+main #promo .container .title {
+  margin-bottom: 25px;
+}
+main #promo .container .title h1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 48px;
+}
+main #harga {
+  margin-bottom: 127px;
+}
+main #harga .container .title h1 {
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 48px;
+}
 main #artikel .container .top {
   display: flex;
   justify-content: space-between;
@@ -87,12 +106,12 @@ main #artikel .container .list {
   margin-top: 40px;
 }
 main #artikel .container .list .card1:hover {
-  box-shadow: 4px 4px 9px 1px rgba(255, 255, 255, 0.25);
+  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
   transition: all ease 1s;
 }
 main #artikel .container .list .card1 {
   transition: all ease 1s;
-  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  background-color: white;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -126,13 +145,17 @@ main #fitur .container .list-row {
   column-gap: 25px;
   grid-template-columns: 1fr 1fr 1fr;
 }
+main #fitur .container .list-row .card1:hover {
+  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  transition: all ease 1s;
+}
 main #fitur .container .list-row .card1 {
+  transition: all ease 1s;
   display: flex;
   align-items: center;
   border-radius: 5px;
   background-color: white;
   cursor: pointer;
-  box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
 }
 main #fitur .container .list-row .card1 .wrapper {
   display: flex;
