@@ -98,6 +98,7 @@ main #artikel .container .list .card1 {
 }
 main #artikel .container .list .card1 img {
   height: 195px;
+  width: 100%;
 }
 main #artikel .container .list .card1 .title {
   padding-top: 19px;
