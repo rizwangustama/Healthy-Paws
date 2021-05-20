@@ -42,9 +42,13 @@ main .container .row .kiri .card {
   padding: 50px;
   border: none;
 }
-main .container .row .kiri .card .atas img {
+main .container .row .kiri .card .atas .wrap {
+  display: flex;
+  justify-content: center;
+}
+main .container .row .kiri .card .atas .wrap img {
+  margin: 0 auto;
   width: 250px;
-  margin-left: 80px;
   margin-bottom: 20px;
 }
 main .container .row .kiri .card .card-body ul {
