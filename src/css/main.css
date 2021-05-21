@@ -327,23 +327,20 @@ main footer .footer {
   background-color: #2d9cdb;
 }
 
-main footer .footer .container .wrap1 {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
+main footer .footer .container {
+  width: 78%;
 }
 
-main footer .footer .container .wrap1 .row {
+main footer .footer .container .wrap1 .col {
   display: block;
 }
 
-main footer .footer .container .wrap1 .row .title h1 {
+main footer .footer .container .wrap1 .col .title h1 {
   font-size: 25px;
   color: white;
 }
 
-main footer .footer .container .wrap1 .row ul li {
+main footer .footer .container .wrap1 .col ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -353,30 +350,30 @@ main footer .footer .container .wrap1 .row ul li {
           align-items: center;
 }
 
-main footer .footer .container .wrap1 .row ul li p {
+main footer .footer .container .wrap1 .col ul li p {
   margin-bottom: 2px;
   font-weight: 300;
   font-size: 15px;
   color: white;
 }
 
-main footer .footer .container .wrap1 .row ul li svg {
+main footer .footer .container .wrap1 .col ul li svg {
   margin-right: 7px;
 }
 
-main footer .footer .container .wrap1 .row form {
+main footer .footer .container .wrap1 .col form {
   margin-bottom: 120px;
 }
 
-main footer .footer .container .wrap1 .row form div {
+main footer .footer .container .wrap1 .col form div {
   margin-bottom: 10px;
 }
 
-main footer .footer .container .wrap1 .row form div label {
+main footer .footer .container .wrap1 .col form div label {
   color: white;
 }
 
-main footer .footer .container .wrap1 .row form .btn {
+main footer .footer .container .wrap1 .col form .btn {
   float: right;
   margin-top: 25px;
   border-radius: 100px;

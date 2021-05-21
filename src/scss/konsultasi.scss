@@ -320,11 +320,13 @@ footer {
         background-color: $primary;
 
         .container {
-            .wrap1 {
-                display: grid;
-                grid-template-columns: 1fr 1fr 1fr;
+            width: 78%;
 
-                .row {
+            .wrap1 {
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+
+                .col {
                     display: block;
 
                     .title {
@@ -345,7 +347,6 @@ footer {
                                 font-weight: 300;
                                 font-size: 15px;
                                 color: white;
-                                margin-bottom: 0px;
                             }
 
                             svg {

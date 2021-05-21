@@ -238,31 +238,33 @@ footer {
         background-color: $primary;
 
         .container {
-            .wrap1 {
-                display              : grid;
-                grid-template-columns: 1fr 1fr 1fr;
+            width: 78%;
 
-                .row {
+            .wrap1 {
+                // display: grid;
+                // grid-template-columns: 1fr 1fr 1fr;
+
+                .col {
                     display: block;
 
                     .title {
                         h1 {
                             font-size: 25px;
-                            color    : white;
+                            color: white;
                         }
                     }
 
                     ul {
                         li {
-                            display        : flex;
+                            display: flex;
                             list-style-type: none;
                             align-items: center;
 
                             p {
                                 margin-bottom: 2px;
-                                font-weight  : 300;
-                                font-size    : 15px;
-                                color        : white;
+                                font-weight: 300;
+                                font-size: 15px;
+                                color: white;
                             }
 
                             svg {
@@ -283,12 +285,12 @@ footer {
                         }
 
                         .btn {
-                            float           : right;
-                            margin-top      : 25px;
-                            border-radius   : 100px;
+                            float: right;
+                            margin-top: 25px;
+                            border-radius: 100px;
                             background-color: $second;
-                            color           : white;
-                            padding         : 5px 54px;
+                            color: white;
+                            padding: 5px 54px;
                         }
                     }
                 }
