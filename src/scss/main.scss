@@ -370,6 +370,7 @@ main {
                             li {
                                 display: flex;
                                 list-style-type: none;
+                                align-items:center;
 
                                 p {
                                     margin-bottom: 2px;
@@ -378,7 +379,7 @@ main {
                                     color: white;
                                 }
 
-                                img {
+                                svg {
                                     margin-right: 7px;
                                 }
                             }
