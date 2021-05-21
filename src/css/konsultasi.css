@@ -234,14 +234,16 @@ footer .footer .container .wrap1 .row .title h1 {
 footer .footer .container .wrap1 .row ul li {
   display: flex;
   list-style-type: none;
+  align-items: center;
 }
 footer .footer .container .wrap1 .row ul li p {
   margin-bottom: 2px;
   font-weight: 300;
   font-size: 15px;
   color: white;
+  margin-bottom: 0px;
 }
-footer .footer .container .wrap1 .row ul li img {
+footer .footer .container .wrap1 .row ul li svg {
   margin-right: 7px;
 }
 footer .footer .container .wrap1 .row form {
