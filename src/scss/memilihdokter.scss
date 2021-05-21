@@ -263,15 +263,16 @@ footer {
                         li {
                             display: flex;
                             list-style-type: none;
-
+                            align-items: center;
                             p {
                                 margin-bottom: 2px;
                                 font-weight: 300;
                                 font-size: 15px;
                                 color: white;
+                                margin-bottom: 0px;
                             }
 
-                            img {
+                            svg {
                                 margin-right: 7px;
                             }
                         }
