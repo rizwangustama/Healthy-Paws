@@ -98,6 +98,32 @@ main .container .card form button {
   color: white;
 }
 
+@media screen and (max-width: 576px) {
+  main .container {
+    padding-top: 150px;
+  }
+  main .container .card {
+    border: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    -webkit-box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+            box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  }
+  main .container .card .logo {
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  main .container .card .logo img {
+    width: 150px;
+  }
+  main .container .card form button {
+    width: 100%;
+    background-color: #2D9CDB;
+    color: white;
+  }
+}
+
 footer img {
   margin-bottom: -1px;
 }

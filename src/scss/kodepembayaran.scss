@@ -130,6 +130,87 @@ main {
     }
 }
 
+@media screen and (max-width: 576px) {
+    main {
+        .container {
+            width: 90%;
+            padding-top: 150px;
+    
+            .card {
+                padding: 40px;
+                width: 100%;
+                border: none;
+                border-radius: 20px;
+                box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    
+                .up {
+                    margin-bottom: 20px;
+                    .total {
+                        border-bottom: 1px solid rgb(177, 174, 174);
+                        margin-bottom: 7px;
+    
+                        .d-flex {
+                            .harga {
+                                color: $primary;
+                            }
+                        }
+                    }
+    
+                    .waktu {
+                        .d-flex {
+                            .waktu-isi {
+                                text-align: right;
+    
+                                h6 {
+                                    font-size: 15px;
+                                    padding: 0;
+                                    margin: 0;
+                                    color: $primary;
+                                }
+    
+                                label {
+                                    font-size: 11.5px;
+                                    color: $second;
+                                    padding: 0;
+                                    margin: 0;
+                                }
+                            }
+                        }
+                    }
+                }
+    
+                .center {
+                    margin-bottom: 50px;
+                    img {
+                        width: 100px;
+                    }
+    
+                    .label {
+                        font-size: 14px;
+                        color: $second;
+                        margin: 0;
+                        margin-left: 40px;
+                    }
+    
+                    .kode {
+                        color: $primary;
+                        // font-size: 20px;
+                        margin: 0;
+                        margin-left: 40px;
+                        // font-weight: bold;
+                    }
+                }
+    
+                .btn {
+                    color: white;
+                    background-color: $primary;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
 footer {
     img {
         margin-bottom: -1px;

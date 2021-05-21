@@ -236,6 +236,192 @@ main {
     }
 }
 
+@media screen and (max-width: 576px) {
+    main {
+        padding-top: 100px;
+        padding-bottom: 50px;
+    
+        .container {
+            width: 78%;
+    
+            section {
+                form {
+                    .search {
+                        border-bottom-right-radius: 0px;
+                        border-top-right-radius: 0px;
+                        background-color: rgb(221, 219, 219);
+    
+                        &:focus {
+                            outline: none;
+                            box-shadow: none;
+                        }
+                    }
+    
+                    .btn-search {
+                        border: 1px solid $primary;
+                        background-color: $primary;
+                        color: white;
+                        border-bottom-left-radius: 0px;
+                        border-top-left-radius: 0px;
+    
+                        &:hover {
+                            background-color: rgba(255, 255, 255, 0);
+                            color: $primary;
+                        }
+                    }
+                }
+            }
+    
+            .list {
+                .row {
+                    .col {
+                        .card {
+                            padding: 20px;
+                            padding-bottom: 12px;
+                            box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2);
+    
+                            .d-flex {
+                                .info {
+                                    margin-left: 30px;
+                                    padding-top: 15px;
+    
+                                    ul {
+                                        list-style-type: none;
+                                        padding: 0;
+    
+                                        li {}
+                                    }
+                                }
+                            }
+    
+                            .card-body {
+                                padding: 0px;
+                                display: flex;
+                                
+    
+                                ul {
+                                    list-style-type: none;
+                                    display: flex;
+                                    padding-left: 0;
+                                    margin-top: 15px;
+    
+                                    li {
+                                        margin-right: 20px;
+    
+                                        .d-flex {
+                                            p {
+                                                margin-left: 7px;
+                                                margin-bottom: 0;
+                                            }
+                                        }
+                                    }
+                                }
+    
+                                button{
+                                    margin-top: 8px;
+                                }
+                                .chat {
+                                    background-color: $primary;
+                                    color: white;
+                                    // padding: 5px 10px 5px 20px;
+                                    padding-left: 25px;
+                                    padding-right: 25px;
+                                    height: 40px;
+                                }
+    
+                                .modal {
+                                    .modal-dialog {
+                                        .modal-content {
+                                            .modal-header {
+                                                border: none;
+                                            }
+    
+                                            .modal-body {
+                                                .container-fluid {
+                                                    width: 90%;
+    
+                                                    .info {
+                                                        // margin-left: 100px;
+    
+                                                        img {
+                                                            width: 95px;
+                                                            border-radius: 100%;
+                                                        }
+    
+                                                        .text {
+                                                            margin-left: 20px;
+    
+                                                            h6 {
+                                                                margin: 0;
+                                                                color: black;
+                                                            }
+    
+                                                            p {
+                                                                margin: 0;
+                                                                font-size: 14px;
+                                                                color: $second;
+                                                            }
+                                                        }
+                                                    }
+    
+                                                    .promo {
+                                                        h6 {
+                                                            color: black;
+                                                        }
+    
+                                                        .input-group {
+                                                            button {}
+                                                        }
+                                                    }
+    
+                                                    .ringkasan {
+                                                        h6 {
+                                                            color: black;
+                                                        }
+    
+                                                        .biaya {
+                                                            margin-bottom: 10px;
+                                                            p {
+                                                                color: $second;
+                                                                font-size: 14px;
+                                                                margin: 0;
+                                                            }
+                                                        }
+    
+                                                        .bayar {
+                                                            h6 {
+                                                                color: black;
+                                                            }
+                                                        }
+                                                    }
+    
+                                                    .metode {
+                                                        padding-bottom: 30px;
+                                                        border-bottom: 1px solid rgb(194, 194, 194);
+                                                        h6 {
+                                                            color: black;
+                                                        }
+                                                    }
+    
+                                                    .btn-bayar {
+                                                        width: 100%;
+                                                        background-color: $primary;
+                                                        color: white;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 footer {
     img {
         margin-bottom: -1px;

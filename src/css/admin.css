@@ -65,6 +65,7 @@ main .container {
 
 main .container .dashboard {
   padding-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 main .container .dashboard .title {
@@ -121,6 +122,10 @@ main .container .dashboard .row .col .card .text-center h1 {
   font-weight: 900;
 }
 
+main .container .transaksi {
+  margin-bottom: 20px;
+}
+
 main .container .transaksi .title {
   color: #555555;
   padding-bottom: 10px;
@@ -160,6 +165,10 @@ main .container .transaksi .table tbody tr td .selesai p {
   padding-bottom: 3px;
   text-align: center;
   color: white;
+}
+
+main .container .dokter {
+  margin-bottom: 20px;
 }
 
 main .container .dokter .title {
@@ -205,6 +214,10 @@ main .container .dokter .table tbody tr td .delete svg {
   color: white;
 }
 
+main .container .user {
+  margin-bottom: 20px;
+}
+
 main .container .user .title {
   color: #555555;
   padding-bottom: 10px;
@@ -246,6 +259,10 @@ main .container .user .table tbody tr td .delete svg {
   padding-bottom: 3px;
   text-align: center;
   color: white;
+}
+
+main .container .anggota {
+  margin-bottom: 20px;
 }
 
 main .container .anggota .title {

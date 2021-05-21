@@ -125,6 +125,40 @@ main {
     }
 }
 
+@media screen and (max-width: 576px) {
+    main {
+        .container {
+            padding-top: 150px;
+    
+            .card {
+                border: none;
+                width: 90%;
+                margin: 0 auto;
+                padding: 40px;
+                box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+    
+    
+                .logo {
+                    margin: 0 auto;
+                    margin-bottom: 50px;
+    
+                    img {
+                        width: 150px;
+                    }
+                }
+    
+                form {
+                    button {
+                        width: 100%;
+                        background-color: $primary;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
 footer {
     img {
         margin-bottom: -1px;

@@ -90,9 +90,9 @@ main {
 
     .container {
         .wrap {
-            display              : grid;
-            column-gap           : 20px;
-            grid-template-columns: 65% 35%;
+            // display              : grid;
+            // column-gap           : 20px;
+            // grid-template-columns: 65% 35%;
 
             .content-left {
                 .title {
@@ -173,10 +173,10 @@ main {
             }
 
             .griding {
-                display              : grid;
-                column-gap           : 31px;
-                row-gap              : 31px;
-                grid-template-columns: 1fr 1fr 1fr;
+                // display              : grid;
+                // column-gap           : 31px;
+                // row-gap              : 31px;
+                // grid-template-columns: 1fr 1fr 1fr;
 
                 .card1:hover {
                     transition: all ease 1s;

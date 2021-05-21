@@ -63,15 +63,6 @@ main {
   padding-top: 108px;
 }
 
-main .container .wrap {
-  display: -ms-grid;
-  display: grid;
-  -webkit-column-gap: 20px;
-          column-gap: 20px;
-  -ms-grid-columns: 65% 35%;
-      grid-template-columns: 65% 35%;
-}
-
 main .container .wrap .content-left .title h1 {
   font-weight: 600;
   font-size: 35px;
@@ -144,16 +135,6 @@ main .container .terbaru .title {
 main .container .terbaru .title h1 {
   font-weight: bold;
   font-size: 35px;
-}
-
-main .container .terbaru .griding {
-  display: -ms-grid;
-  display: grid;
-  -webkit-column-gap: 31px;
-          column-gap: 31px;
-  row-gap: 31px;
-  -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
 }
 
 main .container .terbaru .griding .card1:hover {
