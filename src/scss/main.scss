@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&display=swap');
 
 $background: #f6f8fc;
-$primary : #2d9cdb;
-$second : #555555;
-$judul : #333333,
+$primary   : #2d9cdb;
+$second    : #555555;
+$judul     : #333333,
 100%;
 $subJudul : #4F4F4F;
 
 body {
     background-color: $background;
-    font-family: 'Nunito Sans';
+    font-family     : 'Nunito Sans';
 }
 
 header {
     background-color: white;
-    color: black;
-    box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+    color           : black;
+    box-shadow      : 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
 
     .navbar {
         .container-fluid {
@@ -32,7 +32,7 @@ header {
                 ul {
                     li {
                         a {
-                            color: black;
+                            color          : black;
                             text-decoration: none;
                         }
 
@@ -42,7 +42,7 @@ header {
 
                         .login {
                             background-color: $primary;
-                            color: white;
+                            color           : white;
                         }
 
                         .modal {
@@ -65,14 +65,15 @@ header {
                                             }
 
                                             button {
-                                                width: 100%;
+                                                width           : 100%;
                                                 background-color: $primary;
-                                                color: white;
+                                                color           : white;
                                             }
 
                                             p {
                                                 text-align: center;
-                                                font-size: 14px;
+                                                font-size : 14px;
+
                                                 a {
                                                     &:hover {
                                                         color: $primary;
@@ -95,26 +96,26 @@ main {
     section {
         .container {
             .grid {
-                display: grid;
+                display              : grid;
                 grid-template-columns: 1fr 1fr;
 
                 .left {
-                    display: flex;
+                    display    : flex;
                     align-items: center;
 
                     .isi {
                         h1 {
                             font-weight: 800;
-                            font-size: 40px;
+                            font-size  : 40px;
                             line-height: 54.56px;
-                            color: $judul;
+                            color      : $judul;
                         }
 
                         p {
-                            margin-top: 20px;
-                            font-size: 15px;
+                            margin-top : 20px;
+                            font-size  : 15px;
                             line-height: 25px;
-                            color: $subJudul;
+                            color      : $subJudul;
                         }
                     }
                 }
@@ -134,10 +135,10 @@ main {
         .left {
             img {
                 position: absolute;
-                width: 950px;
-                height: 771px;
-                top: 475px;
-                left: -75px;
+                width   : 950px;
+                height  : 771px;
+                top     : 475px;
+                left    : -75px;
             }
         }
 
@@ -146,19 +147,19 @@ main {
 
             .wrapp {
                 h1 {
-                    margin-top: 300px;
+                    margin-top : 300px;
                     font-family: Nunito;
-                    font-style: normal;
+                    font-style : normal;
                     font-weight: bold;
-                    font-size: 40px;
+                    font-size  : 40px;
                     line-height: 55px;
-                    color: $judul;
+                    color      : $judul;
                 }
 
                 p {
-                    font-size: 15px;
+                    font-size  : 15px;
                     line-height: 25px;
-                    color: $subJudul;
+                    color      : $subJudul;
                 }
             }
         }
@@ -173,7 +174,7 @@ main {
 
                 h1 {
                     font-weight: bold;
-                    font-size: 35px;
+                    font-size  : 35px;
                     line-height: 48px;
 
                 }
@@ -187,9 +188,9 @@ main {
         .container {
             .title {
                 h1 {
-                    font-weight: bold;
-                    font-size: 35px;
-                    line-height: 48px;
+                    font-weight  : bold;
+                    font-size    : 35px;
+                    line-height  : 48px;
                     margin-bottom: 38px;
 
                 }
@@ -200,43 +201,43 @@ main {
     #artikel {
         .container {
             .top {
-                display: flex;
+                display        : flex;
                 justify-content: space-between;
 
                 h1 {
                     font-weight: bold;
-                    font-size: 35px;
-                    color: $judul;
+                    font-size  : 35px;
+                    color      : $judul;
                 }
             }
 
             .tagar {
                 margin-top: 20px;
-                display: flex;
+                display   : flex;
 
                 h2 {
-                    font-size: 17px;
-                    padding: 6px 31px;
-                    border: 1px solid $primary;
+                    font-size    : 17px;
+                    padding      : 6px 31px;
+                    border       : 1px solid $primary;
                     border-radius: 100px;
-                    color: $primary;
-                    cursor: pointer;
+                    color        : $primary;
+                    cursor       : pointer;
                 }
 
                 h2:nth-child(1) {
                     background-color: $primary;
-                    color: white;
-                    margin-right: 11px;
+                    color           : white;
+                    margin-right    : 11px;
                 }
             }
 
             .list {
-                display: grid;
+                display              : grid;
                 grid-template-columns: 1fr 1fr 1fr;
-                grid-template-rows: 289px;
-                column-gap: 25px;
-                row-gap: 33px;
-                margin-top: 40px;
+                grid-template-rows   : 289px;
+                column-gap           : 25px;
+                row-gap              : 33px;
+                margin-top           : 40px;
 
 
                 .card1:hover {
@@ -245,25 +246,25 @@ main {
                 }
 
                 .card1 {
-                    transition: all ease 1s;
+                    transition      : all ease 1s;
                     background-color: white;
-                    border-radius: 5px;
-                    cursor: pointer;
+                    border-radius   : 5px;
+                    cursor          : pointer;
 
                     img {
                         height: 195px;
-                        width: 100%;
+                        width : 100%;
                     }
 
                     .title {
-                        padding-top: 19px;
-                        padding-left: 25px;
-                        padding-right: 25px;
+                        padding-top   : 19px;
+                        padding-left  : 25px;
+                        padding-right : 25px;
                         padding-bottom: 30px;
 
                         p {
                             line-height: 20px;
-                            color: #4e4e4e;
+                            color      : #4e4e4e;
                         }
                     }
                 }
@@ -279,15 +280,15 @@ main {
                 margin-bottom: 23px;
 
                 h1 {
-                    font-size: 35px;
-                    color: $judul;
+                    font-size  : 35px;
+                    color      : $judul;
                     font-weight: bold;
                 }
             }
 
             .list-row {
-                display: grid;
-                column-gap: 25px;
+                display              : grid;
+                column-gap           : 25px;
                 grid-template-columns: 1fr 1fr 1fr;
 
                 .card1:hover {
@@ -296,22 +297,22 @@ main {
                 }
 
                 .card1 {
-                    transition: all ease 1s;
-                    display: flex;
-                    align-items: center;
-                    border-radius: 5px;
+                    transition      : all ease 1s;
+                    display         : flex;
+                    align-items     : center;
+                    border-radius   : 5px;
                     background-color: white;
-                    cursor: pointer;
+                    cursor          : pointer;
 
                     .wrapper {
-                        display: flex;
-                        padding: 0 24px;
-                        padding-top: 33px;
+                        display       : flex;
+                        padding       : 0 24px;
+                        padding-top   : 33px;
                         padding-bottom: 25px;
 
                         .content {
                             margin-left: 9px;
-                            display: flex;
+                            display    : flex;
                             align-items: center;
 
                             .wrap {
@@ -319,18 +320,18 @@ main {
 
                                 .title {
                                     h1 {
-                                        font-size: 15px;
+                                        font-size : 15px;
                                         font-style: normal;
-                                        color: $judul;
+                                        color     : $judul;
                                     }
                                 }
 
                                 .isi {
                                     p {
                                         font-weight: 300;
-                                        font-size: 9px;
+                                        font-size  : 9px;
                                         line-height: 12px;
-                                        color: #555555, 100%;
+                                        color      : #555555, 100%;
                                         line-height: 12px;
                                     }
                                 }
@@ -347,64 +348,64 @@ main {
         img {
             margin-bottom: -1px;
         }
-    
+
         .footer {
             background-color: $primary;
-    
+
             .container {
                 width: 78%;
-    
+
                 .wrap1 {
                     // display: grid;
                     // grid-template-columns: 1fr 1fr 1fr;
-    
+
                     .col {
                         display: block;
-    
+
                         .title {
                             h1 {
                                 font-size: 25px;
-                                color: white;
+                                color    : white;
                             }
                         }
-    
+
                         ul {
                             li {
-                                display: flex;
+                                display        : flex;
                                 list-style-type: none;
-                                align-items: center;
-    
+                                align-items    : center;
+
                                 p {
                                     margin-bottom: 2px;
-                                    font-weight: 300;
-                                    font-size: 15px;
-                                    color: white;
+                                    font-weight  : 300;
+                                    font-size    : 15px;
+                                    color        : white;
                                 }
-    
+
                                 svg {
                                     margin-right: 7px;
                                 }
                             }
                         }
-    
+
                         form {
                             margin-bottom: 120px;
-    
+
                             div {
                                 margin-bottom: 10px;
-    
+
                                 label {
                                     color: white;
                                 }
                             }
-    
+
                             .btn {
-                                float: right;
-                                margin-top: 25px;
-                                border-radius: 100px;
+                                float           : right;
+                                margin-top      : 25px;
+                                border-radius   : 100px;
                                 background-color: $second;
-                                color: white;
-                                padding: 5px 54px;
+                                color           : white;
+                                padding         : 5px 54px;
                             }
                         }
                     }
@@ -417,10 +418,626 @@ main {
         background-color: $second;
 
         p {
-            text-align: center;
-            padding: 20px 0px;
+            text-align   : center;
+            padding      : 20px 0px;
             margin-bottom: 0;
-            color: white;
+            color        : white;
         }
     }
 }
+
+// 768px
+@media screen and(max-width: 411px) {
+    main {
+        section {
+            .container {
+                width: 90%;
+                .grid {
+                    grid-template-columns: 1fr;
+
+                    .left {
+                        padding: 50px 0;
+
+                        h1 {
+                            font-size: 25px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        #dr {
+            height: max-content;
+            margin-bottom: 50px;
+            .right {
+                background-color: $primary;
+                margin: 0 auto;
+                padding: 0px 0;
+
+                .wrapp {
+                    padding: 30px 0px;
+                    width : 85%;
+                    margin: 0 auto;
+
+                    h1 {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size  : 20px;
+                        line-height: 27px;
+                        text-align : right;
+                        color: white;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    p {
+                        color: white;
+                        text-align: right;
+                        font-style: italic;
+                        margin: 0px;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                display: none;
+            }
+
+        }
+        #promo {
+            .container{
+                .title{
+                    h1 {
+                        font-size: 20px;;
+                    }
+                }
+            }
+        }
+        #harga {
+            .container{
+                .title {
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        #artikel {
+            .container{
+                .top {
+                    h1{
+                        font-size:  20px;
+                    }
+                    .btn {
+                        display: none;
+                    }
+                }
+                .tagar{
+
+                }
+                .list {
+                    grid-template-columns: 1fr;
+                    .card1{
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+        #fitur {
+            .container {
+                .judul{
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+                .list-row {
+                    grid-template-columns: 1fr;
+                    row-gap: 24px;
+                    .card1 {
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and(max-width: 510px) {
+    main {
+        section {
+            .container {
+                width: 90%;
+                .grid {
+                    grid-template-columns: 1fr;
+
+                    .left {
+                        padding: 50px 0;
+
+                        h1 {
+                            font-size: 25px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        #dr {
+            height: max-content;
+            margin-bottom: 50px;
+            .right {
+                background-color: $primary;
+                margin: 0 auto;
+                padding: 0px 0;
+
+                .wrapp {
+                    padding: 30px 0px;
+                    width : 85%;
+                    margin: 0 auto;
+
+                    h1 {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size  : 20px;
+                        line-height: 27px;
+                        text-align : right;
+                        color: white;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    p {
+                        color: white;
+                        text-align: right;
+                        font-style: italic;
+                        margin: 0px;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                display: none;
+            }
+
+        }
+        #promo {
+            .container{
+                .title{
+                    h1 {
+                        font-size: 20px;;
+                    }
+                }
+            }
+        }
+        #harga {
+            .container{
+                .title {
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        #artikel {
+            .container{
+                .top {
+                    h1{
+                        font-size:  20px;
+                    }
+                    .btn {
+                        display: none;
+                    }
+                }
+                .tagar{
+
+                }
+                .list {
+                    grid-template-columns: 1fr;
+                    .card1{
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+        #fitur {
+            .container {
+                .judul{
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+                .list-row {
+                    grid-template-columns: 1fr;
+                    row-gap: 24px;
+                    .card1 {
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width: 650px) {
+    main {
+        section {
+            .container {
+                width: 90%;
+                .grid {
+                    grid-template-columns: 1fr;
+
+                    .left {
+                        padding: 50px 0;
+
+                        h1 {
+                            font-size: 25px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        #dr {
+            height: max-content;
+            margin-bottom: 50px;
+            .right {
+                background-color: $primary;
+                margin: 0 auto;
+                padding: 0px 0;
+
+                .wrapp {
+                    padding: 30px 0px;
+                    width : 85%;
+                    margin: 0 auto;
+
+                    h1 {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size  : 20px;
+                        line-height: 27px;
+                        text-align : right;
+                        color: white;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    p {
+                        color: white;
+                        text-align: right;
+                        font-style: italic;
+                        margin: 0px;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                display: none;
+            }
+
+        }
+        #promo {
+            .container{
+                .title{
+                    h1 {
+                        font-size: 20px;;
+                    }
+                }
+            }
+        }
+        #harga {
+            .container{
+                .title {
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        #artikel {
+            .container{
+                .top {
+                    h1{
+                        font-size:  20px;
+                    }
+                    .btn {
+                        display: none;
+                    }
+                }
+                .tagar{
+
+                }
+                .list {
+                    grid-template-columns: 1fr;
+                    .card1{
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+        #fitur {
+            .container {
+                .judul{
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+                .list-row {
+                    grid-template-columns: 1fr;
+                    row-gap: 24px;
+                    .card1 {
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and(max-width: 950px) {
+    main {
+        section {
+            .container {
+                width: 90%;
+                .grid {
+                    grid-template-columns: 1fr;
+
+                    .left {
+                        padding: 50px 0;
+
+                        h1 {
+                            font-size: 25px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+
+                        p {
+                            font-size: 12px;
+
+                            br {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .right {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        #dr {
+            height: max-content;
+            margin-bottom: 50px;
+            .right {
+                background-color: $primary;
+                margin: 0 auto;
+                padding: 0px 0;
+
+                .wrapp {
+                    padding: 30px 0px;
+                    width : 85%;
+                    margin: 0 auto;
+
+                    h1 {
+                        margin-top: 0px;
+                        font-weight: bold;
+                        font-size  : 20px;
+                        line-height: 27px;
+                        text-align : right;
+                        color: white;
+
+                        br {
+                            display: none;
+                        }
+                    }
+                    p {
+                        color: white;
+                        text-align: right;
+                        font-style: italic;
+                        margin: 0px;
+                        br {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .left {
+                display: none;
+            }
+
+        }
+        #promo {
+            .container{
+                .title{
+                    h1 {
+                        font-size: 20px;;
+                    }
+                }
+            }
+        }
+        #harga {
+            .container{
+                .title {
+                    h1{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        #artikel {
+            .container{
+                .top {
+                    h1{
+                        font-size:  20px;
+                    }
+                    .btn {
+                        display: none;
+                    }
+                }
+                .tagar{
+
+                }
+            }
+        }
+        #fitur {
+            .container {
+                .judul{
+                    h1 {
+                        font-size: 20px;
+                    }
+                }
+                .list-row {
+                    grid-template-columns: 1fr;
+                    row-gap: 24px;
+                    .card1 {
+                        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+// @media only screen and (max-width: 411px) {
+//     main{
+//         section{
+//             .container {
+//                 .grid {
+//                     display: flex;
+//                     grid-template-columns: 1fr;
+//                     justify-items: center;
+
+//                     }
+//                     .right{
+//                         grid-area: right;
+//                         display: none;
+//                     }
+//                 }
+//             }
+//         }
+//         #dr {
+//             margin-top: -200px;
+//             .left{
+//                 display: none;
+//             }
+//             .right {
+//                 margin: 0 auto;
+//                 width: 90%;
+//                 .wrapp {
+//                     h1{
+//                         text-align: center;
+//                         font-size: 25px;
+//                         line-height: 33px;
+//                         br{
+//                             display: none;
+//                         }
+//                     }
+//                     p {
+//                         text-align: center;
+//                         br{
+//                             display: none;
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+
+//         #artikel {
+//             .container {
+//                 .top{}
+//                 .tagar{}
+//                 .list{
+//                     grid-template-columns: 1fr 1fr;
+//                     .card1 {
+//                         .title {
+//                             height: max-content;
+//                             p {
+//                                 font-size: 14px
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+
+//         }
+//         #fitur {
+//             .container {
+//                 .list-row{
+//                     grid-template-columns: 1fr;
+//                     row-gap: 22px;
+//                 }
+//             }
+//         }
+//     }
+// }
