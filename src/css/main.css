@@ -353,11 +353,20 @@ main .copyright p {
   main #dr .left {
     display: none;
   }
+  main #promo {
+    margin-bottom: 40px;
+  }
   main #promo .container .title h1 {
     font-size: 20px;
   }
+  main #harga {
+    margin-bottom: 40px;
+  }
   main #harga .container .title h1 {
     font-size: 20px;
+  }
+  main #artikel {
+    padding-bottom: 40px;
   }
   main #artikel .container .top h1 {
     font-size: 20px;
@@ -370,6 +379,9 @@ main .copyright p {
   }
   main #artikel .container .list .card1 {
     box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+  }
+  main #fitur {
+    padding-top: 0px;
   }
   main #fitur .container .judul h1 {
     font-size: 20px;
@@ -444,11 +456,20 @@ main .copyright p {
   main #dr .left {
     display: none;
   }
+  main #promo {
+    margin-bottom: 40px;
+  }
   main #promo .container .title h1 {
     font-size: 20px;
   }
+  main #harga {
+    margin-bottom: 40px;
+  }
   main #harga .container .title h1 {
     font-size: 20px;
+  }
+  main #artikel {
+    padding-top: 0px;
   }
   main #artikel .container .top h1 {
     font-size: 20px;
@@ -535,11 +556,20 @@ main .copyright p {
   main #dr .left {
     display: none;
   }
+  main #promo {
+    margin-bottom: 40px;
+  }
   main #promo .container .title h1 {
     font-size: 20px;
   }
+  main #harga {
+    padding-top: 0px;
+  }
   main #harga .container .title h1 {
     font-size: 20px;
+  }
+  main #artikel {
+    padding-bottom: 40px;
   }
   main #artikel .container .top h1 {
     font-size: 20px;
