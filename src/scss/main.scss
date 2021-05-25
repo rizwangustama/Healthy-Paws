@@ -57,10 +57,12 @@ header {
                                             width: 90%;
 
                                             .logo {
-                                                margin-left: 100px;
+                                                // margin-left: 100px;
 
                                                 img {
                                                     width: 200px;
+                                                    margin: 0 auto;
+                                                    justify-content: center;
                                                 }
                                             }
 
@@ -77,6 +79,88 @@ header {
                                                 a {
                                                     &:hover {
                                                         color: $primary;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-color: white;
+        color: black;
+        box-shadow: 4px 4px 9px 1px rgba(133, 133, 133, 0.25);
+    
+        .navbar {
+            .container-fluid {
+                width: 78%;
+                color: black;
+    
+                .navbar-brand {
+                    img {
+                        width: 90px;
+                    }
+                }
+    
+                .collapse {
+                    ul {
+                        li {
+                            a {
+                                color: black;
+                                text-decoration: none;
+                            }
+    
+                            &:not(:last-child) {
+                                margin-right: 30px;
+                            }
+    
+                            .login {
+                                background-color: $primary;
+                                color: white;
+                            }
+    
+                            .modal {
+                                .modal-dialog {
+                                    .modal-content {
+                                        .modal-header {
+                                            border: none;
+                                        }
+    
+                                        .modal-body {
+                                            .container-fluid {
+                                                width: 90%;
+    
+                                                .logo {
+                                                    // margin-left: 100px;
+    
+                                                    img {
+                                                        width: 200px;
+                                                    }
+                                                }
+    
+                                                button {
+                                                    width: 100%;
+                                                    background-color: $primary;
+                                                    color: white;
+                                                }
+    
+                                                p {
+                                                    text-align: center;
+                                                    font-size: 14px;
+    
+                                                    a {
+                                                        &:hover {
+                                                            color: $primary;
+                                                        }
                                                     }
                                                 }
                                             }

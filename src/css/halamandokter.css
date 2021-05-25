@@ -176,9 +176,6 @@ main .container .row .kanan ul li .card .d-flex .btn-done {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
   }
   main .container .row .kiri .card .atas .wrap img {
     margin: 0 auto;
