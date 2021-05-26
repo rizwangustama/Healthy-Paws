@@ -277,6 +277,12 @@ main .container .row .kanan .card .card-body .d-flex input {
   border-radius: 30px;
 }
 
+@media screen and (max-width: 576px) {
+  main .container {
+    width: 90%;
+  }
+}
+
 footer img {
   margin-bottom: -1px;
 }

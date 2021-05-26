@@ -90,6 +90,12 @@ main .container .table tbody tr td .selesai p {
   color: white;
 }
 
+@media screen and (max-width: 576px) {
+  main .container {
+    width: 90%;
+  }
+}
+
 footer img {
   margin-bottom: -1px;
 }
