@@ -262,8 +262,8 @@ main .container .list .row .col .card .card-body .modal .modal-dialog .modal-con
   main .container .list .row .col .card .card-body .chat {
     background-color: #2D9CDB;
     color: white;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     height: 40px;
   }
   main .container .list .row .col .card .card-body .modal .modal-dialog .modal-content .modal-header {
