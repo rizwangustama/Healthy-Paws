@@ -198,7 +198,7 @@ main .container .list .row .col .card .card-body .modal .modal-dialog .modal-con
     padding-bottom: 50px;
   }
   main .container {
-    width: 78%;
+    width: 90%;
   }
   main .container section form .search {
     border-bottom-right-radius: 0px;
