@@ -70,8 +70,10 @@ main {
                         margin: 0 auto;
 
                         img {
-                            width: 250px;
                             margin-bottom: 30px;
+                            min-width: 12em;
+                            width:  100%;
+                            
                         }
                     }
 
