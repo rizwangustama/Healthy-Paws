@@ -50,8 +50,9 @@ main .container .row .kiri .card .atas {
 }
 main .container .row .kiri .card .atas img {
   margin-bottom: 30px;
-  min-width: 12em;
+  min-width: 20px;
   width: 100%;
+  max-width: 220px;
 }
 main .container .row .kiri .card .card-body ul {
   list-style-type: none;
